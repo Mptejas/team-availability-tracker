@@ -1,0 +1,12 @@
+button {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+button:contains("AVAILABLE") {
+  background-color: green;
+}
+
+button:contains("BUSY") {
+  background-color: orange;
+}
